@@ -93,7 +93,7 @@ export default function HomePage() {
 
   /* ----------- WEBSOCKET ----------- */
   useEffect(() => {
-    const ws = new WebSocket("http://localhost:8000/dashboard")
+    const ws = new WebSocket("https://fraud-api-ehjw.onrender.com/dashboard")
 
     ws.onmessage = (event) => {
       const message = JSON.parse(event.data)
