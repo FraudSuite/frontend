@@ -140,7 +140,6 @@ const fillMockData = () => {
 
 
 
-  const [results, setResults] = useState<PredictionResult | null>(null);
   const [loading, setLoading] = useState(false);
   
 
