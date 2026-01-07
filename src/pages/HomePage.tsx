@@ -71,7 +71,7 @@ export default function HomePage() {
 
 
   useEffect(()=>{
-    const ws = new WebSocket("wss://hiremeai-backend.onrender.com/dashboard")
+    const ws = new WebSocket("wss://fraud-api-ehjw.onrender.com/dashboard")
     ws.onopen = ()=>{
       console.log("Connected to WebSocket");
     }
